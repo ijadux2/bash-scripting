@@ -9,4 +9,4 @@ echo "making a specific directory private"
 read -p "place the path of the directory" directory
 #ead -p "name of the directory" name
 # making the command
-mkdir $directory$name
+mkdir $directory
