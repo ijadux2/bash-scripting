@@ -1,9 +1,9 @@
 #!/usr/bin/bash
-echo "hi listing files in  home directory (~)"
+read -p "hi listing files in any directory" $directory
 
 # functions for listing
 
-lsd -ltr ~
+lsd -ltr $directory
 
 sleep 1
 
