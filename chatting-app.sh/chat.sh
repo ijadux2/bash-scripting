@@ -11,4 +11,5 @@
 # and for personal use only
 # and the chats were not been stored in any extra hidden file
 #                                                              -- ijadux2
+sleep 3
 echo "the messageging app for loves (linux only)!"
