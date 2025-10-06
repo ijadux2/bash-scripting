@@ -7,6 +7,7 @@
 # this is for normal configuration for starters which are contributing in linux and various linux based felids
 #
 # build by ijadux2 (Kumar-vaibhav)
+#
 echo " >>> seting up your system by Kumar-vaibhav (ijadux2)"
 echo " >>> password is requieired for this operation "
 echo " >>> this configuration is minimal and default if you have to customize then customize it latter after the script ! "
