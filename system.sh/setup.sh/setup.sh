@@ -37,8 +37,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 echo "PROMPT='%F{cyan}%~%F{cyan} ➜ '" >>~/.zshrc
 sleep 3
 echo " >>> installing some terminal dependencies "
-echo " >>> installing starship for prompt"
-curl -sS https://starship.rs/install.sh | sh
+#echo " >>> installing starship for prompt"
+#curl -sS https://starship.rs/install.sh | sh
 #eval "$(starship init zsh)" >>~/.zshrc
 
 sleep 3
