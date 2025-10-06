@@ -14,17 +14,17 @@ read -p "Do you want to upgrade the system? (yes/no): " upgrade
 
 # Perform actions based on input
 if [[ "$update" == "yes" && "$upgrade" == "yes" ]]; then
-    echo "Updating and upgrading the system..."
-    sudo apt update && sudo apt upgrade -y
+  echo "Updating and upgrading the system..."
+  sudo apt update && sudo apt upgrade -y
 elif [[ "$update" == "yes" ]]; then
-    echo "Updating the system..."
-    sudo apt update
+  echo "Updating the system..."
+  sudo apt update
 elif [[ "$upgrade" == "yes" ]]; then
-    echo "Upgrading the system..."
-    sudo apt upgrade -y
+  echo "Upgrading the system..."
+  sudo apt upgrade -y
 else
-    echo "No update or upgrade selected. Exiting."
-    exit 0
+  echo "No update or upgrade selected. Exiting."
+  exit 0
 fi
 
 sleep 2
