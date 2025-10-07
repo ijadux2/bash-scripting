@@ -6,7 +6,12 @@ function loading_spinner() {
   local i=0
 
   echo -n "$message "
-  chmod +x *
+  chmod +x /home/ijadux2/workspace/bash.sh/cal/*
+  chmod +x /home/ijadux2/workspace/bash.sh/chatting-app.sh/*
+  chmod +x /home/ijadux2/workspace/bash.sh/games.sh/*
+  chmod +x /home/ijadux2/workspace/bash.sh/system-pkgs/*
+  chmod +x /home/ijadux2/workspace/bash.sh/system.sh/*
+  chmod +x /home/ijadux2/workspace/bash.sh/system.sh/setup.sh/*
 
   # Hide cursor
   tput civis

@@ -4,8 +4,6 @@
 # List of packages to install
 packages=(
   vim
-
-  # add more packages here
 )
 
 # Loop to check and install missing packages
