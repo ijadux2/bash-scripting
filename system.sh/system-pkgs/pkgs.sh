@@ -4,6 +4,8 @@
 # List of packages to install
 packages=(
   vim
+  tmux
+  vlc
 )
 
 # Loop to check and install missing packages

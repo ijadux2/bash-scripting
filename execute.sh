@@ -5,13 +5,14 @@ function loading_spinner() {
   local spin_chars='|/-\'
   local i=0
 
-  echo -n "$message "
+  echo -n "$message"
   chmod +x /home/ijadux2/workspace/bash.sh/cal/*
   chmod +x /home/ijadux2/workspace/bash.sh/chatting-app.sh/*
   chmod +x /home/ijadux2/workspace/bash.sh/games.sh/*
-  chmod +x /home/ijadux2/workspace/bash.sh/system-pkgs/*
+  chmod +x /home/ijadux2/workspace/bash.sh/system.sh/system-pkgs/*
   chmod +x /home/ijadux2/workspace/bash.sh/system.sh/*
   chmod +x /home/ijadux2/workspace/bash.sh/system.sh/setup.sh/*
+  chmod +x /home/ijadux2/workspace/fetches/*
 
   # Hide cursor
   tput civis
