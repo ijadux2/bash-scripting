@@ -6,6 +6,7 @@ packages=(
   vim
   tmux
   vlc
+  ranger
 )
 
 # Loop to check and install missing packages
