@@ -44,7 +44,7 @@ All scripts are implemented in pure bash with interactive interfaces and visual 
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/ijadux2/bash-scripting.git
 cd bash.sh
 ```
 
