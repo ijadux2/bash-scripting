@@ -11,10 +11,10 @@ packages=(
 
 # Loop to check and install missing packages
 for pkg in "${packages[@]}"; do
-  if nala list --installed "$pkg" &>/dev/null; then
+  if apt list --installed "$pkg" &>/dev/null; then
     echo "Package '$pkg' is already installed."
   else
     echo "Installing package '$pkg'..."
-    sudo nala install -y "$pkg"
+    sudo apt install -y "$pkg"
   fi
 done
