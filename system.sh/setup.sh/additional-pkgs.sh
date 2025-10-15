@@ -1,7 +1,9 @@
+echo ">>> making dev config for linux debian/ubuntu"
+sleep 2
 echo " >>> installing some terminal dependencies "
-#echo " >>> installing starship for prompt"
-#curl -sS https://starship.rs/install.sh | sh
-#eval "$(starship init zsh)" >>~/.zshrc
+echo " >>> installing starship for prompt"
+curl -sS https://starship.rs/install.sh | sh
+eval "$(starship init zsh)" >>~/.zshrc
 
 sleep 3
 echo " >>> installing zoxide ! "
@@ -41,4 +43,3 @@ sleep 3
 echo " >>> learn the vim keybinding for game-development ansu"
 echo " >>> customize your linux !"
 echo " >>> for inspiration go and search (unixporn) on your broswer for ideas "
-
