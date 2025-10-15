@@ -1,6 +1,6 @@
 echo ">>> making dev config for linux debian/ubuntu"
 sleep 2
-echo " >>> installing some terminal dependencies "
+
 echo " >>> installing starship for prompt"
 curl -sS https://starship.rs/install.sh | sh
 eval "$(starship init zsh)" >>~/.zshrc
