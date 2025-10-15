@@ -233,35 +233,6 @@ Feel free to:
 - Focus on interactive terminal applications
 - Emphasis on visual design and user experience
 
----
-## Tree
- .
-├──  cal
-│  ├──  cal2.sh
-│  └──  calculator.sh
-├──  chatting-app.sh
-│  ├──  chat.sh
-│  └──  receiver-chat.sh
-├──  execute.sh
-├──  games.sh
-│  └──  game.sh
-├──  README.md
-├──  system.sh
-│  ├──  execute.sh
-│  ├──  face.sh
-│  ├──  setup.sh
-│  │  ├──  additional-pkgs.sh
-│  │  ├──  jadux2_.sh
-│  │  ├──  pkgs.sh
-│  │  ├──  setup.sh
-│  │  └──  update.sh
-│  ├──  stucture.sh
-│  └──  system-pkgs
-│     ├──  pkgs.nix
-│     └──  pkgs.sh
-└──  WARP.md
----
-
 ## 📝 Notes
 
 - All scripts are designed for **personal use** and educational purposes
