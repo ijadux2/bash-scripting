@@ -20,13 +20,16 @@ CUSTOM=false
 # Parse options
 while getopts "w:h:c" opt; do
   case $opt in
-    w) WIDTH="$OPTARG" ;;
-    h) HEIGHT="$OPTARG" ;;
-    c) CUSTOM=true ;;
-    *) echo "Usage: $0 [-w width] [-h height] [-c] <image_file>" >&2; exit 1 ;;
+  w) WIDTH="$OPTARG" ;;
+  h) HEIGHT="$OPTARG" ;;
+  c) CUSTOM=true ;;
+  *)
+    echo "Usage: $0 [-w width] [-h height] [-c] <image_file>" >&2
+    exit 1
+    ;;
   esac
 done
-shift $((OPTIND-1))
+shift $((OPTIND - 1))
 
 # Check if image file is provided
 if [ $# -ne 1 ]; then
@@ -75,8 +78,8 @@ else
   fi
 
   # Convert to grayscale and get pixel values
-  convert "$IMAGE_FILE" -resize "$RESIZE" -colorspace Gray txt:- | \
-  awk '
+  convert "$IMAGE_FILE" -resize "$RESIZE" -colorspace Gray txt:- |
+    awk '
   BEGIN {
     chars = " .:-=+*#%@"
     n = split(chars, char_array, "")
