@@ -233,8 +233,6 @@ Feel free to:
 - Focus on interactive terminal applications
 - Emphasis on visual design and user experience
 
----
-
 ## 📝 Notes
 
 - All scripts are designed for **personal use** and educational purposes
