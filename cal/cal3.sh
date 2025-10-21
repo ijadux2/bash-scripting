@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Calculator for Linux - Terminal Based
 
@@ -28,7 +28,7 @@ while true; do
   else
     echo "Invalid input. Please enter a valid number."
   fi
-done
+done  
 
 echo ">>> Operations to perform!"
 sleep 1
