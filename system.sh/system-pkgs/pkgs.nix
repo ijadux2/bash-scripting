@@ -6,7 +6,6 @@
     sl
     cmatrix
     wezterm
-
   ];
 
 }
