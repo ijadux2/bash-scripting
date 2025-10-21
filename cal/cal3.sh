@@ -3,7 +3,6 @@
 # Calculator for Linux - Terminal Based
 
 echo ">>> Calculator App"
-sleep 2
 
 # Function to check if input is a number
 is_number() {
@@ -28,7 +27,7 @@ while true; do
   else
     echo "Invalid input. Please enter a valid number."
   fi
-done  
+done
 
 echo ">>> Operations to perform!"
 sleep 1
