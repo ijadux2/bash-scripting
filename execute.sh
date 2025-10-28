@@ -7,12 +7,11 @@ function loading_spinner() {
 
   echo -n "$message"
   chmod +x $HOME/workspace/bash-scripting/cal/*
-  chmod +x $HOME/workspace/bash-scripting/chatting-app.sh/*
-  chmod +x $HOME/workspace/bash-scripting/games.sh/*
+  #  chmod +x $HOME/workspace/bash-scripting/chatting-app.sh/*
+  #  chmod +x $HOME/workspace/bash-scripting/games.sh/*
   chmod +x $HOME/workspace/bash-scripting/system.sh/*
   chmod +x $HOME/workspace/bash-scripting/system.sh/setup.sh/*
-  chmod +x $HOME/workspace/bash-scriptting/cal/*
-  chmod +x $HOME/workspace/bash-scriping/system.sh/system-pkgs/*
+  chmod +x $HOME/workspace/bash-scripting/system.sh/system-pkgs/*
 
   # Hide cursor
   tput civis
